@@ -130,14 +130,14 @@
       "name": "deleted.diff",
       "scope": "markup.deleted.diff",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
       "name": "c++ function",
       "scope": "meta.function.c",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -209,7 +209,7 @@
       "name": "java source",
       "scope": "source.java",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -238,7 +238,7 @@
       "name": "java variable.name",
       "scope": "meta.definition.variable.name.java",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -290,7 +290,7 @@
       "scope":
         "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -322,7 +322,7 @@
       "scope":
         "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.node",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -359,7 +359,7 @@
       "name": "js/ts console",
       "scope": "support.type.object.console",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -522,7 +522,7 @@
       "name": "Variables",
       "scope": "variable",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -873,7 +873,7 @@
       "name": "[VSCODE-CUSTOM] Markdown List Punctuation Definition",
       "scope": "beginning.punctuation.definition.list.markdown",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -954,7 +954,7 @@
       "name": "Embedded",
       "scope": "punctuation.section.embedded, variable.interpolation",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -994,7 +994,7 @@
       "scope":
         "source.json meta.structure.dictionary.json > string.quoted.json",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -1003,7 +1003,7 @@
       "scope":
         "source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -1028,14 +1028,14 @@
       "name": "[VSCODE-CUSTOM] JSON Property Name",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
       "scope": "support.type.property-name.json punctuation",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -1162,7 +1162,7 @@
       "name": "php dollar sign",
       "scope": "punctuation.definition.variable.php",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -1240,7 +1240,7 @@
       "name": "sass selector",
       "scope": "selector.sass",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -1248,7 +1248,7 @@
       "scope":
         "var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
       "settings": {
-        "foreground": "#FF6F9F",
+        "foreground": "#F5AAFD",
         "fontStyle": "italic"
       }
     },
@@ -1256,7 +1256,7 @@
       "name": "ts primitive/builtin types",
       "scope": "support.type.primitive.ts,support.type.builtin.ts",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
@@ -1270,7 +1270,7 @@
       "name": "cs local variable",
       "scope": "entity.name.variable.local.cs",
       "settings": {
-        "foreground": "#FF6F9F"
+        "foreground": "#F5AAFD"
       }
     },
     {
