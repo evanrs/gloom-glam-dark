@@ -1,23 +1,23 @@
 {
-  "name": "Gloom Glam",
+  "name": "Gloom Glam Dark",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#212136",
+    "activityBar.background": "#0f0f1a",
     "activityBar.foreground": "#D7DAE0",
     "activityBarBadge.background": "#4D78CC",
     "activityBarBadge.foreground": "#F8FAFD",
-    "badge.background": "#292A44",
+    "badge.background": "#161626",
     "button.background": "#404754",
-    "debugToolBar.background": "#292A44",
+    "debugToolBar.background": "#161626",
     "dropdown.background": "#1d1f23",
     "diffEditor.insertedTextBackground": "#00809B33",
     "dropdown.border": "#181A1F",
-    "editor.background": "#292A44",
+    "editor.background": "#161626",
     "editor.foreground": "#F1EFF7",
     "editorError.foreground": "#c24038",
-    "editorMarkerNavigation.background": "#292A44",
+    "editorMarkerNavigation.background": "#161626",
     "editorRuler.foreground": "#333454",
-    "editor.lineHighlightBackground": "#333454",
+    "editor.lineHighlightBackground": "#171726",
     "editor.selectionBackground": "#4F528A",
     "editor.selectionHighlightBackground": "#484e5b",
     "editorCursor.foreground": "#94F2E7",
@@ -27,49 +27,49 @@
     "editor.wordHighlightStrongBackground": "#484e5b",
     "editorGroup.background": "#181A1F",
     "editorGroup.border": "#181A1F",
-    "editorGroupHeader.tabsBackground": "#292A44",
+    "editorGroupHeader.tabsBackground": "#161626",
     "editorIndentGuide.background": "#3B4048",
     "editorLineNumber.foreground": "#495162",
     "editorWhitespace.foreground": "#3B4048",
-    "editorHoverWidget.background": "#292A44",
+    "editorHoverWidget.background": "#141421",
     "editorHoverWidget.border": "#181A1F",
-    "editorSuggestWidget.background": "#292A44",
+    "editorSuggestWidget.background": "#141421",
     "editorSuggestWidget.border": "#181A1F",
     "editorSuggestWidget.selectedBackground": "#363759",
-    "editorWidget.background": "#292A44",
+    "editorWidget.background": "#161626",
     "input.background": "#1d1f23",
     "list.activeSelectionBackground": "#363759",
     "list.activeSelectionForeground": "#d7dae0",
-    "list.focusBackground": "#383E4A",
+    "list.focusBackground": "#171726",
     "list.hoverBackground": "#363759",
     "list.highlightForeground": "#C5C5C5",
     "list.inactiveSelectionBackground": "#363759",
     "list.inactiveSelectionForeground": "#d7dae0",
-    "notification.background": "#292A44",
+    "notification.background": "#161626",
     "peekViewEditor.matchHighlightBackground": "#29244b",
     "scrollbarSlider.background": "#4E566680",
     "scrollbarSlider.activeBackground": "#747D9180",
     "scrollbarSlider.hoverBackground": "#5A637580",
-    "sideBar.background": "#212136",
-    "sideBarSectionHeader.background": "#212136",
-    "statusBar.background": "#212136",
+    "sideBar.background": "#0f0f1a",
+    "sideBarSectionHeader.background": "#0f0f1a",
+    "statusBar.background": "#0f0f1a",
     "statusBar.foreground": "#9da5b4",
     "statusBarItem.hoverBackground": "#363759",
-    "statusBar.noFolderBackground": "#212136",
-    "statusBar.debuggingBackground": "#212136",
+    "statusBar.noFolderBackground": "#0f0f1a",
+    "statusBar.debuggingBackground": "#0f0f1a",
     "tab.activeBackground": "#363759",
     "tab.border": "#181A1F",
-    "tab.inactiveBackground": "#212136",
-    "titleBar.activeBackground": "#212136",
+    "tab.inactiveBackground": "#0f0f1a",
+    "titleBar.activeBackground": "#0f0f1a",
     "titleBar.activeForeground": "#9da5b4",
-    "titleBar.inactiveBackground": "#212136",
-    "titleBar.inactiveForeground": "#6B717D"
+    "titleBar.inactiveBackground": "#0f0f1a",
+    "titleBar.inactiveForeground": "#6B717D",
+    "panel.background": "#0f0f1a"
   },
   "tokenColors": [
     {
       "name": "punctuation.definition",
-      "scope":
-        "punctuation.definition.string.begin,punctuation.definition.string.end",
+      "scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
       "settings": {
         "foreground": "#6DFEDF"
       }
@@ -113,8 +113,7 @@
     },
     {
       "name": "diff",
-      "scope":
-        "meta.diff.header.from-file,punctuation.definition.from-file.diff",
+      "scope": "meta.diff.header.from-file,punctuation.definition.from-file.diff",
       "settings": {
         "foreground": "#569cd6"
       }
@@ -149,8 +148,7 @@
     },
     {
       "name": "c++ block",
-      "scope":
-        "punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c",
+      "scope": "punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c",
       "settings": {
         "foreground": "#F1EFF7"
       }
@@ -164,8 +162,7 @@
     },
     {
       "name": "js/ts italic",
-      "scope":
-        "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
         "fontStyle": "italic"
       }
@@ -214,8 +211,7 @@
     },
     {
       "name": "java modifier.import",
-      "scope":
-        "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,storage.type.generic.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,meta.method.body.java",
+      "scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,storage.type.generic.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,meta.method.body.java",
       "settings": {
         "foreground": "#F1EFF7"
       }
@@ -264,8 +260,7 @@
     },
     {
       "name": "support.constant.property-value.scss",
-      "scope":
-        "support.constant.property-value.scss,support.constant.property-value.css",
+      "scope": "support.constant.property-value.scss,support.constant.property-value.css",
       "settings": {
         "foreground": "#66D9EF"
       }
@@ -279,56 +274,49 @@
     },
     {
       "name": "css property-name",
-      "scope":
-        "support.type.vendored.property-name.css, support.type.property-name.css",
+      "scope": "support.type.vendored.property-name.css, support.type.property-name.css",
       "settings": {
         "foreground": "#66D9EF"
       }
     },
     {
       "name": "js/ts template-expression",
-      "scope":
-        "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end",
+      "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end",
       "settings": {
         "foreground": "#F5AAFD"
       }
     },
     {
       "name": "js/ts module",
-      "scope":
-        "support.module.node,support.type.object.module,support.module.node",
+      "scope": "support.module.node,support.type.object.module,support.module.node",
       "settings": {
         "foreground": "#7AA5FF"
       }
     },
     {
       "name": "Support primitive",
-      "scope":
-        "support.type.primitive, entity.name.type.entity.name.type.js.meta.type.annotation.js, entity.name.type.entity.name.type.js.meta.return.type.js",
+      "scope": "support.type.primitive, entity.name.type.entity.name.type.js.meta.type.annotation.js, entity.name.type.entity.name.type.js.meta.return.type.js",
       "settings": {
         "foreground": "#66D9EF"
       }
     },
     {
       "name": "Annotation Keyword",
-      "scope":
-        "keyword.operator.type.annotation, keyword.operator.optional, meta.return.type.js",
+      "scope": "keyword.operator.type.annotation, keyword.operator.optional, meta.return.type.js",
       "settings": {
         "foreground": "#7AA5FF"
       }
     },
     {
       "name": "js variable readwrite",
-      "scope":
-        "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.node",
+      "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.node",
       "settings": {
         "foreground": "#F5AAFD"
       }
     },
     {
       "name": "js variable process",
-      "scope":
-        "support.variable.object.process, support.variable.property.process",
+      "scope": "support.variable.object.process, support.variable.property.process",
       "settings": {
         "foreground": "#66D9EF"
       }
@@ -349,8 +337,7 @@
     },
     {
       "name": "js/ts Keyword",
-      "scope":
-        "keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.ternary",
+      "scope": "keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.ternary",
       "settings": {
         "foreground": "#7AA5FF"
       }
@@ -399,8 +386,7 @@
     },
     {
       "name": "C operator assignment",
-      "scope":
-        "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c",
+      "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c",
       "settings": {
         "foreground": "#7AA5FF"
       }
@@ -470,8 +456,7 @@
     },
     {
       "name": "python block",
-      "scope":
-        "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python,meta.function-call.arguments.python",
+      "scope": "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python,meta.function-call.arguments.python",
       "settings": {
         "foreground": "#F1EFF7"
       }
@@ -555,8 +540,7 @@
     },
     {
       "name": "Functions",
-      "scope":
-        "entity.name.function, meta.require, support.function.any-method",
+      "scope": "entity.name.function, meta.require, support.function.any-method",
       "settings": {
         "foreground": "#2DE0A7"
       }
@@ -584,8 +568,7 @@
     },
     {
       "name": "Class name",
-      "scope":
-        "entity.name.class.identifier.namespace.type, entity.name.type.class",
+      "scope": "entity.name.class.identifier.namespace.type, entity.name.type.class",
       "settings": {
         "foreground": "#678BDC"
       }
@@ -640,10 +623,8 @@
       }
     },
     {
-      "name":
-        "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
-      "scope":
-        "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
+      "name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
+      "scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
       "settings": {
         "foreground": "#7AA5FF"
       }
@@ -792,8 +773,7 @@
     },
     {
       "name": "Headings",
-      "scope":
-        "markup.heading, markup.heading punctuation.definition.heading, entity.name.section",
+      "scope": "markup.heading, markup.heading punctuation.definition.heading, entity.name.section",
       "settings": {
         "foreground": "#2DE0A7"
       }
@@ -886,8 +866,7 @@
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition String",
-      "scope":
-        "punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown",
+      "scope": "punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown",
       "settings": {
         "foreground": "#F1EFF7"
       }
@@ -901,16 +880,14 @@
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
-      "scope":
-        "markup.underline.link.markdown,markup.underline.link.image.markdown",
+      "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
       "settings": {
         "foreground": "#6DFEDF"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Link Title/Description",
-      "scope":
-        "string.other.link.title.markdown,string.other.link.description.markdown",
+      "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
       "settings": {
         "foreground": "#AE81FF"
       }
@@ -991,35 +968,28 @@
     },
     {
       "name": "Source Json Meta Structure Dictionary Json > String Quoted Json",
-      "scope":
-        "source.json meta.structure.dictionary.json > string.quoted.json",
+      "scope": "source.json meta.structure.dictionary.json > string.quoted.json",
       "settings": {
         "foreground": "#F5AAFD"
       }
     },
     {
-      "name":
-        "Source Json Meta Structure Dictionary Json > String Quoted Json > Punctuation String",
-      "scope":
-        "source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string",
+      "name": "Source Json Meta Structure Dictionary Json > String Quoted Json > Punctuation String",
+      "scope": "source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string",
       "settings": {
         "foreground": "#F5AAFD"
       }
     },
     {
-      "name":
-        "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
-      "scope":
-        "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
+      "name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
+      "scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
       "settings": {
         "foreground": "#6DFEDF"
       }
     },
     {
-      "name":
-        "Source Json Meta Structure Dictionary Json > Constant Language Json,source Json Meta Structure Array Json > Constant Language Json",
-      "scope":
-        "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
+      "name": "Source Json Meta Structure Dictionary Json > Constant Language Json,source Json Meta Structure Array Json > Constant Language Json",
+      "scope": "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
       "settings": {
         "foreground": "#2DE0A7"
       }
@@ -1040,24 +1010,21 @@
     },
     {
       "name": "laravel blade tag",
-      "scope":
-        "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
+      "scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
       "settings": {
         "foreground": "#C679DD"
       }
     },
     {
       "name": "laravel blade @",
-      "scope":
-        "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade",
+      "scope": "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade",
       "settings": {
         "foreground": "#C679DD"
       }
     },
     {
       "name": "use statement for other classes",
-      "scope":
-        "support.other.namespace.use.php,support.other.namespace.use-as.php,support.other.namespace.php",
+      "scope": "support.other.namespace.use.php,support.other.namespace.use-as.php,support.other.namespace.php",
       "settings": {
         "foreground": "#e5c07b"
       }
@@ -1099,32 +1066,28 @@
     },
     {
       "name": "php types",
-      "scope":
-        "storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php",
+      "scope": "storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php",
       "settings": {
         "foreground": "#e5c07b"
       }
     },
     {
       "name": "php call-function",
-      "scope":
-        "meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php",
+      "scope": "meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php",
       "settings": {
         "foreground": "#2DE0A7"
       }
     },
     {
       "name": "php function-resets",
-      "scope":
-        "punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php",
+      "scope": "punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php",
       "settings": {
         "foreground": "#bbbbbb"
       }
     },
     {
       "name": "support php constants",
-      "scope":
-        "support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php",
+      "scope": "support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php",
       "settings": {
         "foreground": "#AE81FF"
       }
@@ -1138,8 +1101,7 @@
     },
     {
       "name": "php logical/bitwise operator",
-      "scope":
-        "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
+      "scope": "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
       "settings": {
         "foreground": "#2DE0A7"
       }
@@ -1181,8 +1143,7 @@
     },
     {
       "name": "python function support",
-      "scope":
-        "support.token.decorator.python,meta.function.decorator.identifier.python",
+      "scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
       "settings": {
         "foreground": "#2DE0A7"
       }
@@ -1245,8 +1206,7 @@
     },
     {
       "name": "js ts this",
-      "scope":
-        "var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
+      "scope": "var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
       "settings": {
         "foreground": "#F5AAFD",
         "fontStyle": "italic"
