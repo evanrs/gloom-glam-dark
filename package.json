@@ -1,16 +1,16 @@
 {
-  "name": "gloom-glam",
-  "displayName": "Gloom Glam",
-  "description": "A glamour version of Gloom syntax theme for VS Code",
+  "name": "gloom-glam-dark",
+  "displayName": "Gloom Glam Dark",
+  "description": "A glamour darker version of Gloom Glam syntax theme for VS Code",
   "version": "0.0.1",
-  "publisher": "rusinovanton",
+  "publisher": "evanrs",
   "bugs": {
-    "url": "https://github.com/RusinovAnton/gloom-glam/issues"
+    "url": "https://github.com/evanrs/gloom-glam-dark/issues"
   },
-  "homepage": "https://github.com/RusinovAnton/gloom-glam",
+  "homepage": "https://github.com/evanrs/gloom-glam-dark",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RusinovAnton/gloom-glam"
+    "url": "https://github.com/evanrs/gloom-glam-dark"
   },
   "engines": {
     "vscode": "^1.10.0"
@@ -23,6 +23,7 @@
     "theme",
     "gloom",
     "glamour",
+    "darker",
     "vscode"
   ],
   "license": "MIT",
