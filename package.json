@@ -2,7 +2,7 @@
   "name": "gloom-glam-dark",
   "displayName": "Gloom Glam Dark",
   "description": "A glamour darker version of Gloom Glam syntax theme for VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "evanrs",
   "bugs": {
     "url": "https://github.com/evanrs/gloom-glam-dark/issues"
@@ -31,9 +31,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Gloom",
+        "label": "Gloom Glam Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Gloom.json"
+        "path": "./themes/GloomGlamDark.json"
       }
     ]
   }
